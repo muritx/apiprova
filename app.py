@@ -58,6 +58,3 @@ def aparelho_patch():
     aparelhos[id]["nome"] = nome
     aparelhos[id]["marca"] = marca
         
-    return aparelhos  
-if __name__ == "__main__":
-    main()
