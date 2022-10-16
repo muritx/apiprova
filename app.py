@@ -59,5 +59,5 @@ def aparelho_patch():
     aparelhos[id]["marca"] = marca
         
     return aparelhos  
-
-app.run()
+if __name__ == "__main__":
+    main()
